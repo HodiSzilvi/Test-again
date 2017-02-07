@@ -9,7 +9,7 @@ public class Changer extends Node{
     enum chooseTo { FIRST, SECOND };
     Package p;
 
-    Changer(){ //Konstruktor, minden bele
+    Changer(){ //Konstruktor, minden bele  ---> nem kell végül!
 
     }
 
@@ -21,5 +21,10 @@ public class Changer extends Node{
     public int move(){
         //Elküldjük a kiválasztott irányba
         return 0;
+    }
+    
+    public int gitHubChange(){
+        System.out.println("Ez változott, so much happines");
+        return 13;
     }
 }
