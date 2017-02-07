@@ -27,4 +27,8 @@ public class Changer extends Node{
         System.out.println("Ez változott, so much happines");
         return 13;
     }
+    
+    public string test2(){
+        return "Hello from the otherside!";
+    }
 }
